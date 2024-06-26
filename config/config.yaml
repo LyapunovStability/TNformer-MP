@@ -1,0 +1,22 @@
+train:
+  device: "cuda:0"
+  ct_batch_size: 32
+  ts_batch_size: 32
+  multi_batch_size: 32
+  ct_epoch:  50
+  ts_epoch: 50
+  multi_epoch: 50
+  uni_lr_ct: 0.001
+  uni_lr_ts: 0.0005
+  multi_lr: 0.001
+
+
+model:
+  ct_dim: 128
+  ts_dim: 32
+  hid_dim: 64
+  layer: 2
+  head: 4
+
+
+
